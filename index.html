@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla3</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" id="ui-theme-color" href="css/color1.css">
+</head>
+
+<body>
+
+    <!--===========SCROLL TOP=============-->
+    <span class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </span>
+    <!--===========SCROLL TOP=============-->
+
+    <!--===========PALETA DE COLORES=============-->
+    <div class="color-sitio esconder-lateral" id="colorSitio">
+        <h5>Elige el color</h5>
+        <div id="cambiadorEstilo">
+            <ul class="colores c-s-btns">
+                <li data-path="css/color1.css">
+                    <p data-path="css/color1.css" class="c-s-btn estilo-color opcion-de-color1"></p>
+                </li>
+                <li data-path="css/color2.css">
+                    <p data-path="css/color2.css" class="c-s-btn estilo-color opcion-de-color2"></p>
+                </li>
+                <li data-path="css/color3.css">
+                    <p data-path="css/color3.css" class="c-s-btn estilo-color opcion-de-color3"></p>
+                </li>
+                <li data-path="css/color4.css">
+                    <p data-path="css/color4.css" class="c-s-btn estilo-color opcion-de-color4"></p>
+                </li>
+                <li data-path="css/color5.css">
+                    <p data-path="css/color5.css" class="c-s-btn estilo-color opcion-de-color5"></p>
+                </li>
+                <li data-path="css/color6.css">
+                    <p data-path="css/color6.css" class="c-s-btn estilo-color opcion-de-color6"></p>
+                </li>
+
+            </ul>
+
+        </div>
+        <button id="cambiarEstilo" class="c-s-btn">
+            <i class='bx bx-paint'></i>
+        </button>
+
+    </div>
+    <!--===========PALETA DE COLORES=============-->
+    <!--===========NAVEGADOR=============-->
+    <header class="l-header" id="header">
+        <nav class="nav contenedor">
+
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-menu-lista">
+                    <li class="nav-menu-item">
+                        <a href="" class="nav-menu-link fw-700 active-link">
+                            <span></span> Inicio
+                        </a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="" class="nav-menu-link fw-700">
+                            <span></span>Cursos
+                        </a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="" class="nav-menu-link fw-700">
+                            <span></span> Paginas
+                        </a>
+                    </li>
+                    <li class="nav-menu-item">
+                        <a href="" class="nav-menu-link fw-700">
+                            <span></span> blog
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-izquierda">
+                <a class="nav-contenedor-logo" id="nav-c-logo" href="#">
+                    <img class="nav-logo" src="img/LogoFinalDark.svg" alt="Logotipo de la Empresa" id="nav-logo">
+                </a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+            <div class="nav-menu-icon" id="nav-menu2">
+                <ul class="nav-menu-lista">
+                    <li class="nav-menu-item-icon">
+                        <a href="" class="nav-menu-link-icon fw-700">
+                            <span></span>Registrarse
+                        </a>
+                    </li>
+                    <li class="nav-menu-item-icon">
+                        <a href="" class="nav-menu-link-icon fw-700">
+                            <span></span>Ingresar
+                        </a>
+                    </li>
+                    <li class="nav-menu-item-icon">
+                        <a href="" class="nav-menu-link-icon">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                    </li>
+                    <li class="nav-menu-item-icon">
+                        <a href="" class="nav-menu-link-icon">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                    </li>
+                    <li class="nav-menu-item-icon">
+                        <a href="" class="nav-menu-link-icon">
+                            <i class='bx bxs-cart-alt'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+    <div class="relleno-header">
+
+    </div>
+    <!--===========NAVEGADOR=============-->
+    <section class=" primera-seccion">
+        <div class="p-s-portada">
+            <div class="p-s-portada-contenido">
+                <div class="p-s-p-c-texto">
+                    <h2>Te ayudaremos a aprender lo que tu amas</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. harum aliquid dignissimos expedita, a ut provident mollitia ratione ipsa.</p>
+                </div>
+                <div class="p-s-p-c-btn">
+                    <button class="btn p-s-p-c-btn1 fw-300">
+                        Comenzar mi prueba gratuita
+                    </button>
+                    <button class="btn p-s-p-c-btn2 fw-300">
+                        navegar por cursos para desarrolladores
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="p-s-buscador">
+            <div class="p-s-searchbox">
+                <input type="text" placeholder="Que es lo que quieres aprender">
+                <button>
+                    <i class='bx bx-search'></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="segunda-seccion">
+        <div class="contenedor">
+            <div class="s-s-encabezado">
+                <div class="s-s-e-left">
+                    <h3>Cursos Populares</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, facilis veritatis incidunt dolorem</p>
+                </div>
+                <div class="s-s-e-rigth">
+                    <button class="btn fw-300">Navegar todos los cursos >></button>
+                </div>
+            </div>
+            <div class="s-s-cuadros">
+                <div class="s-s-c-cuadro">
+                    <div class="s-s-c-imagen">
+                        <img src="img/2.jpg" alt="">
+                    </div>
+                    <div class="s-s-c-texto" id="s-s-c-texto">
+                        <h4>Introduccion : Clase magistral de marketing por correo electrónico</h4>
+                        <p>FREE</p>
+                        <div class="s-s-c-t-info">
+                            <div class="s-s-c-t-i-left">
+                                <p>300 Estudiantes</p>
+                            </div>
+                            <div class="s-s-c-t-i-right" id="s-s-c-t-i-right">
+                                <i class='bx bxs-star' id="1estrella"></i>
+                                <i class='bx bxs-star' id="2estrella"></i>
+                                <i class='bx bxs-star' id="3estrella"></i>
+                                <i class='bx bxs-star' id="4estrella"></i>
+                                <i class='bx bxs-star' id="5estrella"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="s-s-c-cuadro">
+                    <div class="s-s-c-imagen">
+                        <img src="img/3.jpg" alt="">
+                    </div>
+                    <div class="s-s-c-texto" id="s-s-c-texto">
+                        <h4>Introduccion : Clase magistral de marketing por correo electrónico</h4>
+                        <p>FREE</p>
+                        <div class="s-s-c-t-info">
+                            <div class="s-s-c-t-i-left">
+                                <p>300 Estudiantes</p>
+                            </div>
+                            <div class="s-s-c-t-i-right" id="s-s-c-t-i-right">
+                                <i class='bx bxs-star' id="1estrella"></i>
+                                <i class='bx bxs-star' id="2estrella"></i>
+                                <i class='bx bxs-star' id="3estrella"></i>
+                                <i class='bx bxs-star' id="4estrella"></i>
+                                <i class='bx bxs-star' id="5estrella"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="s-s-c-cuadro">
+                    <div class="s-s-c-imagen">
+                        <img src="img/4.jpg" alt="">
+                    </div>
+                    <div class="s-s-c-texto" id="s-s-c-texto">
+                        <h4>Introduccion : Clase magistral de marketing por correo electrónico</h4>
+                        <p>FREE</p>
+                        <div class="s-s-c-t-info">
+                            <div class="s-s-c-t-i-left">
+                                <p>300 Estudiantes</p>
+                            </div>
+                            <div class="s-s-c-t-i-right" id="s-s-c-t-i-right">
+                                <i class='bx bxs-star' id="1estrella"></i>
+                                <i class='bx bxs-star' id="2estrella"></i>
+                                <i class='bx bxs-star' id="3estrella"></i>
+                                <i class='bx bxs-star' id="4estrella"></i>
+                                <i class='bx bxs-star' id="5estrella"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="s-s-c-cuadro">
+                    <div class="s-s-c-imagen">
+                        <img src="img/5.jpg" alt="">
+                    </div>
+                    <div class="s-s-c-texto" id="s-s-c-texto">
+                        <h4>Introduccion : Clase magistral de marketing por correo electrónico</h4>
+                        <p>FREE</p>
+                        <div class="s-s-c-t-info">
+                            <div class="s-s-c-t-i-left">
+                                <p>300 Estudiantes</p>
+                            </div>
+                            <div class="s-s-c-t-i-right" id="s-s-c-t-i-right">
+                                <i class='bx bxs-star' id="1estrella"></i>
+                                <i class='bx bxs-star' id="2estrella"></i>
+                                <i class='bx bxs-star' id="3estrella"></i>
+                                <i class='bx bxs-star' id="4estrella"></i>
+                                <i class='bx bxs-star' id="5estrella"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tercera-seccion">
+        <div class="contenedor">
+            <div class="tercera-seccion-contenido">
+                <div class="t-s-informacion">
+                    <i class='bx bxs-building'></i>
+                    <h3>mejores líderes de la industria</h3>
+                    <p>nos enorgullecemos de ofrecerle el mejor sistema de gestión de aprendizaje</p>
+                </div>
+                <div class="t-s-informacion">
+                    <i class='bx bxs-book'></i>
+                    <h3>aprender cualquier cosa en línea</h3>
+                    <p>¿Quieres vender tus cursos online y que el mundo sepa de ti? elíjanos!</p>
+                </div>
+                <div class="t-s-informacion">
+                    <img src="img/undraw_book_lover_mkck.svg" alt="sigue aprendiendo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="cuarta-seccion">
+        <div class="contenedor">
+            <div class="c-s-encabezado">
+                <div class="c-s-e-left">
+                    <h3>Mejores Instructores</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nemo, quis veritatis vero aperiam, obc</p>
+                </div>
+                <div class="c-s-e-right">
+                    <button class="btn fw-300">
+                        Ver Todos los Instructores
+                    </button>
+                </div>
+            </div>
+            <div class="c-s-cuadros">
+                <div class="c-s-c-perfil animacion-aparicion">
+                    <div class="c-s-c-p-foto">
+                        <img src="img/6.jpg" alt="">
+                    </div>
+                    <div class="c-s-c-p-texto">
+                        <h2>Juan Cabrera Rojas</h2>
+                        <p>developer</p>
+                        <div class="c-s-c-p-t-media">
+                            <i class='bx bxl-facebook'></i>
+                            <i class='bx bxl-twitter'></i>
+                            <i class='bx bxl-google-plus'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-s-c-perfil animacion-aparicion">
+                    <div class="c-s-c-p-foto">
+                        <img src="img/7.jpg" alt="">
+                    </div>
+                    <div class="c-s-c-p-texto">
+                        <h2>Juan Cabrera Rojas</h2>
+                        <p>developer</p>
+                        <div class="c-s-c-p-t-media">
+                            <i class='bx bxl-facebook'></i>
+                            <i class='bx bxl-twitter'></i>
+                            <i class='bx bxl-google-plus'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-s-c-perfil animacion-aparicion">
+                    <div class="c-s-c-p-foto">
+                        <img src="img/8.jpg" alt="">
+                    </div>
+                    <div class="c-s-c-p-texto">
+                        <h2>Juan Cabrera Rojas</h2>
+                        <p>developer</p>
+                        <div class="c-s-c-p-t-media">
+                            <i class='bx bxl-facebook'></i>
+                            <i class='bx bxl-twitter'></i>
+                            <i class='bx bxl-google-plus'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="c-s-c-perfil animacion-aparicion">
+                    <div class="c-s-c-p-foto">
+                        <img src="img/9.jpg" alt="">
+                    </div>
+                    <div class="c-s-c-p-texto">
+                        <h2>Juan Cabrera Rojas</h2>
+                        <p>developer</p>
+                        <div class="c-s-c-p-t-media">
+                            <i class='bx bxl-facebook'></i>
+                            <i class='bx bxl-twitter'></i>
+                            <i class='bx bxl-google-plus'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <section class="quinta-seccion">
+        <div class="contenedor">
+            <div class="q-s-ultimasNoticias">
+                <div class="q-s-u-titulo">
+                    <h3>Ultimas Noticias</h3>
+                </div>
+                <div class="q-s-u-texto">
+                    <div class="q-s-u-imagen">
+                        <img src="img/10.jpg" alt="Ultimas noticias">
+                    </div>
+                    <div class="q-s-u-contenido">
+                        <h5>Galleria Eventos 3</h5>
+                        <div class="q-s-u-c-informacion">
+                            <p><i class='bx bxs-user'></i>Thang</p>
+                            <p><i class='bx bx-time'></i>Junio 16,2017</p>
+                            <p><i class='bx bxs-comment'></i>0 comentarios</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="q-s-u-texto">
+                    <div class="q-s-u-imagen">
+                        <img src="img/11.jpg" alt="Ultimas noticias">
+                    </div>
+                    <div class="q-s-u-contenido">
+                        <h5>Galleria Eventos 4</h5>
+                        <div class="q-s-u-c-informacion">
+                            <p><i class='bx bxs-user'></i>Thang</p>
+                            <p><i class='bx bx-time'></i>Junio 16,2017</p>
+                            <p><i class='bx bxs-comment'></i>0 comentarios</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="q-s-u-texto">
+                    <div class="q-s-u-imagen">
+                        <img src="img/12.jpg" alt="Ultimas noticias">
+                    </div>
+                    <div class="q-s-u-contenido">
+                        <h5>Galleria Eventos 4</h5>
+                        <div class="q-s-u-c-informacion">
+                            <p><i class='bx bxs-user'></i>Thang</p>
+                            <p><i class='bx bx-time'></i>Junio 16,2017</p>
+                            <p><i class='bx bxs-comment'></i>0 comentarios</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="q-s-testimonios">
+                <div class="q-s-t-titulo">
+                    <h3>Testimoniales</h3>
+                </div>
+                <div class="q-s-t-testimonio">
+                    <blockquote>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt magni asperiores sapiente qui alias, harum minus pariatur at doloribus earum nihil deleniti amet suscipit optio illo dolores non libero eos?</blockquote>
+                    <div class="q-s-t-autor">
+                        <h5>Anna</h5>
+                        <p>MIT instructor</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="sexta-seccion">
+
+    </section>
+    <section class="septima-seccion">
+
+    </section>
+
+    <footer class="footer seccion">
+
+        <p class="copyright">Todos los derechos Reservados 2021 &copy;</p>
+    </footer>
+
+
+
+
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
