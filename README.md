@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">Events Service</h1>
+<h1 align="center">Courses</h1>
 
 <div align="center">
    Second template made with HTML, CSS and JS
