@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-Plantilla3 una nueva maquetacion implementando y mejorando los conocimientos acquiridos como la paleta de colores y animacion de aparicion en javascript puro
-planes siguientes el cambio de imagenes segun el color elegido en futuros proyectos
- 
-=======
 <!-- Please update value in the {}  -->
 
 <h1 align="center">Events Service</h1>
@@ -59,4 +54,3 @@ This application/site was created as practice to demonstrate the advancement of 
 
 - Linkedin [GustavoOmonteAcevedo](https://www.linkedin.com/in/gustavo-omonte-acevedo/)
 - GitHub [GustavoOmonteAcevedo](https://github.com/GustavoOmonteAcevedoGOA)
->>>>>>> c94605b (recuperando github)
