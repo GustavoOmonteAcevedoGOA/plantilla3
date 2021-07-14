@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     /*--===========paleta completa=============--*/
     --color-opcion1: #c10a28;
@@ -63,4 +64,71 @@
 
 .opcion-de-color6 {
     background: var(--color-opcion6);
+=======
+:root {
+    /*--===========paleta completa=============--*/
+    --color-opcion1: #c10a28;
+    --color-opcion2: #c38105;
+    --color-opcion3: #2c0ac1;
+    --color-opcion4: #c10aa3;
+    --color-opcion5: #e04f0b;
+    --color-opcion6: #1cd1d8;
+    /*--===========color principal=============--*/
+    --color-principal: #e04f0b;
+    /*--===========body color=============--*/
+    --body-color: #ffffff;
+    --text-color: #6159e5;
+    --text-color: #000000;
+    /*--===========scroll=============--*/
+    --color-scroll: rgba(190, 68, 11, 0.5);
+    --color-scroll-hover: #f1560e;
+    --color-scroll-flecha: #FBFEFD;
+    /*--===========paleta de color=============--*/
+    --color-paleta: #fff;
+    --color-paleta-border: #eee;
+    --color-paleta-icono: #ffffff;
+    --color-paleta-icono-fondo: #e04f0b;
+    --color-paleta-titulo: #5d5d5d;
+    /*--===========navegador=============--*/
+    --color-header: #e04f0b;
+    --color-header-text: #fbfbfb;
+    --color-header-text-hover: rgb(255, 235, 52);
+    /*--===========seccion 1=============--*/
+    --color-s1-text: #ffffff;
+    --color-s1-btn: #e04f0b;
+    --color-s1-btn-text: #ffffff;
+    /*--===========seccion 2=============--*/
+    --color-s2-free: #229b22;
+    --color-s2-bgc: #f6f9fa;
+    /*--===========seccion 3=============--*/
+    --color-s3-h3: #ffffff;
+    --color-s3-p: #f3f3f3;
+    /*--===========seccion5=============--*/
+    --color-s5-info: #8c8a8a;
+    --color-s5-testimonio: #71B100;
+}
+
+.opcion-de-color1 {
+    background: var(--color-opcion1);
+}
+
+.opcion-de-color2 {
+    background: var(--color-opcion2);
+}
+
+.opcion-de-color3 {
+    background: var(--color-opcion3);
+}
+
+.opcion-de-color4 {
+    background: var(--color-opcion4);
+}
+
+.opcion-de-color5 {
+    background: var(--color-opcion5);
+}
+
+.opcion-de-color6 {
+    background: var(--color-opcion6);
+>>>>>>> c94605b (recuperando github)
 }
